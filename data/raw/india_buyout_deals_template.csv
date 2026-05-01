@@ -1,0 +1,2 @@
+deal_id,announcement_date,target_name,country,sector,sponsor,deal_type,enterprise_value_usd_mn,ebitda_usd_mn,ev_ebitda_multiple,debt_amount_usd_mn,equity_amount_usd_mn,debt_ebitda,debt_instrument_type,interest_rate,exit_route,source_url,notes
+IND001,YYYY-MM-DD,Example Target,India,Example Sector,Example Sponsor,Control Investment,,,,,,,NCD / CCD / INR term loan,,Pending,https://example.com,Replace with verified public source
