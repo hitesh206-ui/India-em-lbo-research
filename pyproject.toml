@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "india-em-lbo-research"
 version = "0.1.0"
@@ -8,13 +12,17 @@ authors = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-  "pandas",
-  "numpy",
-  "matplotlib",
-  "openpyxl",
-  "scikit-learn",
-  "statsmodels"
+  "pandas>=2.2.0",
+  "numpy>=1.26.0",
+  "matplotlib>=3.8.0",
+  "openpyxl>=3.1.0",
+  "scikit-learn>=1.4.0",
+  "statsmodels>=0.14.0"
 ]
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]
