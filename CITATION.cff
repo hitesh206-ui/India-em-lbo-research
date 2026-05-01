@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Leveraged Buyouts in Emerging Markets: Capital Structure Adaptation, Regulatory Frictions, and the Case of India"
+message: "If you use this repository, please cite it."
+authors:
+  - family-names: "Dabi"
+    given-names: "Hitesh"
+  - family-names: "Dabi"
+    given-names: "Himanshu"
+year: 2026
+license: MIT
+repository-code: "https://github.com/hitesh206-ui/India-em-lbo-research"
