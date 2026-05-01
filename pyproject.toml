@@ -1,0 +1,20 @@
+[project]
+name = "india-em-lbo-research"
+version = "0.1.0"
+description = "Research repository for emerging-market LBOs with India as the core case study"
+authors = [
+  {name = "Hitesh Dabi"},
+  {name = "Himanshu Dabi"}
+]
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "openpyxl",
+  "scikit-learn",
+  "statsmodels"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
